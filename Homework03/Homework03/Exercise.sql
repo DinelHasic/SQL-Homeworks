@@ -43,7 +43,7 @@ GROUP BY  Student.ID,Student.FirstName
 HAVING MAX(Grade) = AVG(Grade)
 
 
-----List Student First Name and Last Name next to the other details from previous query------
+
 
 ----- Create new view (vv_StudentGrades) that will List all StudentIds and count of Grades per student----------
 CREATE OR ALTER VIEW vv_StudentGrades AS
